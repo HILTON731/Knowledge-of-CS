@@ -2,7 +2,7 @@
 
 - [좋은 코드란 무엇인가](#좋은-코드란-무엇인가)
 - [객체 지향 프로그래밍](#Object-Oriented-Programming)
-- [Overriding & Overloading](#Overriding-&-Overloading)
+- [Overloading & Overriding](#Overloading-&-Overriding)
 - [절차 지향 프로그래밍](#Procedure-Oriented-Programming)
 - [RESTful API](#Restful-API)
 - [TDD](#TDD)
@@ -104,7 +104,7 @@ Java는 완전한 기계어가 아닌 중간 단계의 Byte code이기 때문에
 
 
 
-## Overriding & Overloading
+## Overloading & Overriding
 
 `Java`에서 다형성(Polymorphism)을 지원하는 방법이다.
 
