@@ -1,14 +1,16 @@
 # Computer Science Common Knowledge
 
-- [좋은 코드란 무엇인가](#좋은-코드란-무엇인가)
-- [객체 지향 프로그래밍](#Object-Oriented-Programming)
-- [Overloading & Overriding](#Overloading-&-Overriding)
-- [절차 지향 프로그래밍](#Procedure-Oriented-Programming)
-- [RESTful API](#Restful-API)
-- [TDD](#TDD)
-- [함수형 프로그래밍](#Functional-Programming)
-- [MVC 패턴](#MVC-Pattern)
-- [Git & GitHub](#Git-&-GitHub)
+- [Computer Science Common Knowledge](#computer-science-common-knowledge)
+  - [좋은 코드란 무엇인가](#좋은-코드란-무엇인가)
+  - [Object Oriented Programming](#object-oriented-programming)
+    - [기본 구성요소](#기본-구성요소)
+    - [장점](#장점)
+    - [단점](#단점)
+    - [OOP의 특징](#oop의-특징)
+  - [JVM(Java Virtual Machine)](#jvmjava-virtual-machine)
+    - [JVM의 역할](#jvm의-역할)
+    - [실행 과정](#실행-과정)
+  - [Overloading & Overriding](#overloading--overriding)
 
 [Back](https://github.com/HILTON731/Job_interview)
 
