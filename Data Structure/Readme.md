@@ -38,6 +38,9 @@
     - [인접 리스트(adjacent list): 연결 리스트를 사용하는 방법](#인접-리스트adjacent-list-연결-리스트를-사용하는-방법)
   - [그래프 탐색](#그래프-탐색)
     - [깊이 우선 탐색(Depth First Search: DFS)](#깊이-우선-탐색depth-first-search-dfs)
+    - [너비 우선 탐색(Breadth First Search: BFS)](#너비-우선-탐색breadth-first-search-bfs)
+  - [MST(Minimum Spanning Tree)](#mstminimum-spanning-tree)
+    - [Kruskal Algorithm](#kruskal-algorithm)
 
 
 # Array
@@ -332,4 +335,20 @@ Vertex의 adjacent list를 확인해봐야 하므로 vertex 간 연결되어있�
 
 ### 깊이 우선 탐색(Depth First Search: DFS)
 
-그래프 상에 존재하는 임의의 한 정점으로부터 연결되어 있는 한 정점으로만 나아간다라는 
+그래프 상에 존재하는 임의의 한 정점으로부터 연결되어 있는 한 정점으로만 나아가면서 탐색한다. 연결된 정점이 긑날 때 까지 계속 지나가다가 더이상 연결되지 않은 정점이 없으면 그 전 단계의 정점으로 돌아가서 연결할 수 있는 정점이 있는지 살핀다. 이를 위해 `Stack`을 사용한다.
+
+시간 복잡도: `Big-O(V+E)`
+
+### 너비 우선 탐색(Breadth First Search: BFS)
+
+그래프 상에 존재하는 임의의 한 정점으로부터 연결되어 있는 모든 정점으로 나아간다. Tree에서의 Level Order Traversal 형식으로 진행되는데 이를 위해 `Queue`를 사용한다. 정점을 `queue`에 삽입하고 `dequeue`하면서 dequeue되는 정점의 자식 노드들을 `enqueue`한다. 즉 정점들을 방문한 순서대로 queue에 저장하는 방법을 사용한다.
+
+시간 복잡도: `Big-O(V+E)`
+
+## MST(Minimum Spanning Tree)
+
+그래프 G의 spanning tree 중 edge weight의 합이 최소인 `spanning tree`를 말한다.
+
+### Kruskal Algorithm
+
+초기화 작업으로 edge 없이 vertex 들만으로 그래프를 구성한다. 그리고 weight 가 제일 작은 edge 부터 검토한다. 그러기 위해선 edge
